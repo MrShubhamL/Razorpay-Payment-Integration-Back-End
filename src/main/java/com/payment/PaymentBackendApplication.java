@@ -19,7 +19,7 @@ public class PaymentBackendApplication extends SpringBootServletInitializer {
         SpringApplication.run(PaymentBackendApplication.class, args);
     }
 
-    @GetMapping("/test")
+    @GetMapping("/testAPI")
     public String test(){
         return "Application is running...";
     }
