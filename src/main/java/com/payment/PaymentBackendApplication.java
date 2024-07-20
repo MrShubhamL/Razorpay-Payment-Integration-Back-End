@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class PaymentBackendApplication extends SpringBootServletInitializer {
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-        return builder.main(PaymentBackendApplication.class);
+        return builder.sources(PaymentBackendApplication.class);
     }
 
     public static void main(String[] args) {
